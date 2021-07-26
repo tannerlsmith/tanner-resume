@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanner Smith</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="header">
@@ -18,18 +19,56 @@
             </ul>
         </nav>
         <!-- <hr>, this tag adds a line ruled across screen -->
-        <h1>Tanner Smith</h1>
+        <h1 class="header-name header-name-large">Tanner Smith</h1>
     </header>
-    <section class="section">
-        <h2>About</h2>
+    <section class="content-section container">
+        <h2 class="section-header">About</h2>
         <p>Etiam faucibus tellus vitae scelerisque condimentum. Nunc sed sapien arcu. Nullam semper congue vehicula. Nulla iaculis dui eget diam lobortis, eget posuere magna pharetra. In sit amet tellus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut dapibus vulputate est, in ultricies odio placerat ac. In pretium nunc id leo accumsan vestibulum. Duis laoreet molestie tortor in volutpat. Duis consectetur faucibus lorem maximus facilisis. Phasellus purus ante, tincidunt in faucibus at, cursus eu nulla. Maecenas auctor odio id posuere lobortis. Duis at velit ornare, mollis leo non, egestas nunc. Proin dui mauris, porta viverra mauris quis, molestie condimentum urna.</p>
+        
+        <hr>        
+        
+        <div class="flex-row">
+            <h2 class="section-header">
+                My projects
+            </h2>
+        </div>
+        
+        <div class="project-container">
+            <article class="trainer">
+                <img class="about-project-img" src="./images/Screen Shot 2021-07-25 at 10.58.04 PM.png" />
 
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">(don't) Google the Weather</h3>
+                    <h4 class="trainer-role">HTML, CSS, JavaScript</h4>
+                    <p>Now you don't have to "google" the weather. For this one, I mocked google's homepage to create a responsive website using minimal design, and I used a weather API to search any city's weather forecast.</p>
+                </div>
+            </article>
+        </div>
+        
     </section>
 
-    <footer class="footer">
-        <h3>Footer</h3>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Made by Tanner Smith</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
     
 </body>
+<script src="script.js"></script>
 </html>
+
+
+
+
+
+
+
+<!-- https://www.youtube.com/watch?v=YeFzkC2awTM -->
